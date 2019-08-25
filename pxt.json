@@ -5,7 +5,7 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "pxt-oled-ssd1306": "github:mkleinsb/pxt-oled-ssd1306#v0.0.3"
+        "pxt-oled-ssd1306": "github:mkleinsb/pxt-oled-ssd1306#v0.0.5"
     },
     "files": [
         "README.md",
