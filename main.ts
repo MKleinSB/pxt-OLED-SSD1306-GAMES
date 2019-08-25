@@ -34,7 +34,7 @@ namespace oledssd1306 {
         oledssd1306.setTextXY(row, column)
         oledssd1306.writeCustomChar("\x0E\x11\x21\x42\x21\x11\x0E\x00")
     }
-    //% blockId=oledssd1306_heartempty
+    //% blockId=oledssd1306_heart
     //% row.min=0 row.max=7 
     //% column.min=0 column.max=15
     //% block="zeichne Herz an Zeile %row| und Spalte %column"
