@@ -1,7 +1,7 @@
 {
     "name": "pxt-oled_ssd1306-games",
     "version": "0.0.3",
-    "description": "",
+    "description": "Blöcke um mit einem OLED-Display am Calliope Mini einfache Spiele programmieren zu können.",
     "dependencies": {
         "core": "*",
         "radio": "*",
