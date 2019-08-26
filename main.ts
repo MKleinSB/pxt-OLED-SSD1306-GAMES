@@ -42,7 +42,14 @@ namespace oledssd1306 {
         oledssd1306.setTextXY(row, column)
         oledssd1306.writeCustomChar("\x0E\x1F\x3F\x7E\x3F\x1F\x0E\x00")
     }
-
+    //% blockId=oledssd1306_deletechar
+    //% row.min=0 row.max=7 
+    //% column.min=0 column.max=15
+    //% block="lösche Zeichen an Zeile %row| und Spalte %column"
+    export function löscheZeichen(Zeile: number, Spalte: number) {
+        oledssd1306.setTextXY(Zeile, Spalte)
+        oledssd1306.clearRange(1)
+    }
     //% blockId=oledssd1306_heartcatcherfull
     //% row.min=0 row.max=7 
     //% column.min=0 column.max=15
